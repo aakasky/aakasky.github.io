@@ -165,7 +165,7 @@ section .title::after{
 /* home section styling */
 .home{
     display: flex;
-    background: url("back.jpg");
+    background: url("https://static.vecteezy.com/system/resources/previews/000/582/542/non_2x/vector-abstract-template-black-frame-layout-metallic-red-light-on-dark-background-modern-luxury-futuristic-technology-concept.jpg");
     height: 100vh;
     color: #fff;
     min-height: 500px;
