@@ -629,6 +629,10 @@ section .title::after {
     color: crimson;
 }
 
+.contact .contact-content .row i:hover {
+    color: black;
+}
+
 .contact .contact-content .info .head {
     font-weight: 500;
 }
