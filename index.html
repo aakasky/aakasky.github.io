@@ -1,0 +1,510 @@
+<!DOCTYPE html>
+<!-- Created By SKY -->
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aakash's Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+    <div class="scroll-up-btn">
+        <i class="fa fa-arrow-up"></i>
+    </div>
+
+    <!-- navbar -->
+    <nav class="navbar">
+        <div class="max-width">
+            <div class="logo"><a href="#">Portfo<span>lio.</span></a></div>
+            <ul class="menu">
+                <li><a href="#home" class="menu-btn">Home</a></li>
+                <li><a href="#about" class="menu-btn">About</a></li>
+                <li><a href="#present" class="menu-btn">Present</a></li>
+                <li><a href="#services" class="menu-btn">Services</a></li>
+                <li><a href="#skills" class="menu-btn">Skills</a></li>
+                <li><a href="#project" class="menu-btn">Project</a></li>
+                <li><a href="#contact" class="menu-btn">Contact</a></li>
+            </ul>
+            <div class="menu-btn">
+                <i class="fa fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    <!-- home section start -->
+    <section class="home" id="home">
+        <div class="max-width">
+            <div class="home-content">
+                <div class="text-1">Hello, my name is</div>
+                <div class="text-2">Aakash Yadav</div>
+                <div class="text-3">And I'm a <span class="typing"></span></div>
+                <a class="contact-link" href="#contact">Get in Touch</a> <br>
+                <a class="link" href="https://www.linkedin.com/in/aakasky/"><i class="fa fa-linkedin"></i></a>
+                <a class="link" href="https://t.me/aakasky_05"><i class="fa fa-telegram"></i></a>
+                <a class="link" href="https://github.com/aakasky"><i class="fa fa-github"></i></a>
+                <a class="link" href="https://www.instagram.com/aakasky_05/"><i class="fa fa-instagram"></i></a>
+                <a class="link" href="https://twitter.com/aakasky_05/"><i class="fa fa-twitter"></i></a>
+                <a class="link" href="https://wa.me/919820809562/"><i class="fa fa-whatsapp"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- about section start -->
+    <section class="about" id="about">
+        <div class="max-width">
+            <h2 class="title">About me</h2>
+            <div class="about-content">
+                <div class="column left">
+                    <img src="image/sky.png" alt="">
+                </div>
+                <div class="column right">
+                    <div class="text">I'm Aakash and I'm a <span class="typing-2"></span></div>
+                    <em>I am a passionate and dedicated computer science graduate from Thakur College of Engineering and
+                        Technology, with a Bachelor's degree in Engineering. Throughout my academic journey, I have
+                        immersed myself in the world of software development, honing my skills in both Android
+                        application and web development. Proficient in a wide array of programming languages including,
+                        I have brought my creative ideas to life through various projects. My toolkit also includes
+                        mastery over essential tools such as Android Studio, BizTalk as well as frontend technologies
+                        like HTML, CSS, and JavaScript. With a strong command over MySQL, MSSQL, Firebase, and MongoDB,
+                        I bring a holistic approach to every project I undertake. Beyond coding, I am an avid explorer
+                        of new places, perpetually excited to learn about emerging technologies, and find joy in the
+                        cricket pitch. This portfolio showcases not just my projects, but my journey and unwavering
+                        enthusiasm for all things tech.</em>
+                    <a href="./Aakash Yadav Resume.pdf" download="Aakash Yadav_Resume">Download CV</a>
+                    <a href="./Aakash Yadav Resume.pdf" target="_blank">View
+                        CV</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- present section start -->
+    <section class="present" id="present">
+        <div class="max-width">
+            <h2 class="title">At Present</h2>
+            <div class="present-content">
+                <div class="column left">
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('experience')">Experience</p> <br>
+                        <p class="tab-links" onclick="opentab('achievement')">Achievement</p> <br>
+                        <p class="tab-links" onclick="opentab('education')">Education</p> <br>
+                        <p class="tab-links" onclick="opentab('internship')">Internship</p> <br>
+                        <p class="tab-links" onclick="opentab('offer')">Offer</p> <br>
+                    </div>
+                </div>
+                <div class="column right">
+                    <div class="tab-content active-tab" id="experience">
+                        <ul>
+                            <li>
+                                <span>Kotak Life</span><br>
+                                <em>Graduate Trainee (Developer)</em> &nbsp; <span style="font-size: medium;">May 2023 - Present</span> <br>
+                                Create a user portal utilizing ASP .NET to manage access control for Kotak DCO users. Experience in working with middleware technologies like BizTalk, gaining expertise in orchestrations, pipelines, and maps. Develope an ML model for Aadhaar data deduplication and masking, ensuring privacy and security.<br>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="tab-content" id="achievement">
+                        <ul>
+                            <li>
+                                <span>International Informatics Olympiad</span><br>
+                                <em>Cleared Level 1 of International Informatics Olympiad by securing 1st position in class & 26th in state.</em><br>
+                            </li>
+                            <li>
+                                <span>Mind's Eye Project Competition 2023</span><br>
+                                <em>Secured the third position in the prestigious Mind's Eye Project Competition 2023 for our final year project.</em><br>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="tab-content" id="internship">
+                        <ul>
+                            <li>
+                                <span>Growfitter</span><br>
+                                <em>Android Developer - Intern</em><br>
+                                Developed module for the company.<br>
+                            </li>
+                            <li>
+                                <span>Let’s Grow More</span><br>
+                                <em>Android Developer - Intern</em><br>
+                                Developed API based Covid Tracker App.<br>
+                            </li>
+                            <li>
+                                <span>Data Science Using R Language</span><br>
+                                <em>Data Science - Intern</em><br>
+                                Developed model for loan eligibility.<br>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="tab-content" id="education">
+                        <ul>
+                            <li>
+                                <span>Bachelor of Engineering (CS)</span><br>
+                                <em>University of Mumbai (2019 - 2023)</em><br>
+                                Passed with 9.8 CGPI<br>
+                            </li>
+                            <li>
+                                <span>Higher Secondary School Certificate (H.S.C)</span><br>
+                                <em>Maharashtra State Board (2018 - 2019)</em><br>
+                                Passed with 86.15%<br>
+                            </li>
+                            <li>
+                                <span>Secondary School Certificate (S.S.C)</span><br>
+                                <em>Maharashtra State Board (2016 - 2017)</em><br>
+                                Passed with 87.20%<br>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="tab-content" id="offer">
+                        <ul>
+                            <li>
+                                <span>Cleared TCS NQT Exam</span><br>
+                                <em>Offer | ASE (Assistant System Engineer)</em><br>
+                            </li>
+                            <li>
+                                <span>Accenture</span><br>
+                                <em>Offer | Application Development Associate</em><br>
+                            </li>
+                            <li>
+                                <span>Kotak Life Insurance</span><br>
+                                <em>Offer | Graduate Trainee (Developer) </em><br>
+                            </li>
+                            <li>
+                                <span>Capgemini</span><br>
+                                <em>Offer | Analyst</em><br>
+                            </li>
+                            <li>
+                                <span>Growfitter</span><br>
+                                <em>Offer | Android Developer</em><br>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- services section start -->
+    <section class="services" id="services">
+        <div class="max-width">
+            <h2 class="title">My services</h2>
+            <div class="serv-content carousel owl-carousel">
+                <div class="card">
+                    <div class="box">
+                        <i class="fa fa-chrome"></i>
+                        <div class="text">Web Design</div>
+                        <p>I possess the ability to craft unique, impactful, and dynamic websites that showcase your
+                            brand, enhance your conversion rates, and increase your revenue, thereby aiding in the
+                            growth of your business and realizing your objectives.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="box">
+                        <i class="fa fa-mobile"></i>
+                        <div class="text">Apps Design</div>
+                        <p>Mobile app design entails the creation of both the front-end and complex back-end components
+                            of an application. This involves the development of the graphical and touch-sensitive
+                            interface that facilitates user interaction with the app.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="box">
+                        <i class="fa fa-link"></i>
+                        <div class="text">Middleware</div>
+                        <p>One of my key strengths lies in my ability to seamlessly integrate applications. I am well-versed in orchestrating integration processes and possess a deep understanding of BizTalk, a pivotal tool in the integration landscape.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="box">
+                        <i class="fa fa-key"></i>
+                        <div class="text">Information Security</div>
+                        <p>Although my proficiency in Information security is at a basic level, I possess an ardent
+                            desire to apply my knowledge wherever applicable. In pursuit of this passion, I have created
+                            several security-focused applications.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- skills section start -->
+    <section class="skills" id="skills">
+        <div class="max-width">
+            <h2 class="title">My skills</h2>
+            <div class="skills-content">
+                <div class="column left">
+                    <div class="text">My creative skills & experiences.</div>
+                    <p>During my professional career, I acquired several skills and areas of knowledge. I am eager to
+                        enhance these competencies further and expand my understanding of emerging tools, languages, and
+                        frameworks. As such, I am actively exploring new and innovative frameworks that can improve my
+                        efficiency and effectiveness.</p>
+                    <a href="#about">Read more</a>
+                </div>
+                <div class="column right">
+                    <div class="bars">
+                        <div class="info">
+                            <span>C</span>
+                        </div>
+                        <div class="line skill"></div>
+                    </div>
+                    <div class="bars">
+                        <div class="info">
+                            <span>C#</span>
+                        </div>
+                        <div class="line skill"></div>
+                    </div>
+                    <div class="bars">
+                        <div class="info">
+                            <span>C++</span>
+                        </div>
+                        <div class="line skill"></div>
+                    </div>
+                    <div class="bars">
+                        <div class="info">
+                            <span>MS SQL</span>
+                        </div>
+                        <div class="line skill"></div>
+                    </div>
+                    <div class="bars">
+                        <div class="info">
+                            <span>Python</span>
+                        </div>
+                        <div class="line skill"></div>
+                    </div>
+                    <div class="bars">
+                        <div class="info">
+                            <span>Java</span>
+                        </div>
+                        <div class="line skill"></div>
+                    </div>
+                    <div class="bars">
+                        <div class="info">
+                            <span>HTML</span>
+                        </div>
+                        <div class="line skill"></div>
+                    </div>
+                    <div class="bars">
+                        <div class="info">
+                            <span>CSS</span>
+                        </div>
+                        <div class="line skill"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- project section start -->
+    <section class="project" id="project">
+        <div class="max-width">
+            <h2 class="title">Professional projects</h2>
+            <div class="carousel owl-carousel">
+                <div class="card">
+                    <div class="box">
+                        <img src="image/kotak.png" alt="Kotak Life Insurance">
+                        <div class="text">Access Control Portal</div>
+                        <p>For Kotak Life Insurance, I created a portal utilizing asp.net MVC and MS SQL as the backend. The portal was used as an access control to give or remove user authorization.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="box">
+                        <img src="image/biztalk.png" alt="Microsoft Biztalk Server">
+                        <div class="text">Microsoft Biztalk Server</div>
+                        <p>Worked with middleware technologies such as BizTalk, developing skills in orchestrations, pipelines, and maps. Using C# to build a bespoke pipeline and orchestrate logic for best integration.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="box">
+                        <img src="image/aadhar.jpeg" alt="Aadhaar Masking">
+                        <div class="text">Aadhar Masking</div>
+                        <p>Using Python and the Fast API, I created an API for aadhar masking. Document categorization and deduplication are also included.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br> <br>
+        <div class="max-width">
+            <h2 class="title">My projects (During Bachelors)</h2>
+            <div class="carousel owl-carousel">
+                <div class="card">
+                    <div class="box">
+                        <img src="image/docvac.png" alt="DocVac">
+                        <div class="text">Vaccination Desk</div>
+                        <p>The healthcare application is designed to seamlessly deliver fast, accurate, and reliable
+                            online medical services. It leverages intelligent technology to provide cutting-edge
+                            healthcare solutions, including detailed information about medicines and vaccines. Among its
+                            many features, the application boasts a chatbot for assistance, appointment booking, vaccine
+                            dose reminders, vaccination record storage, secure payment gateway, and more.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="box">
+                        <img src="image/BudTrip.png" alt="BudTrip">
+                        <div class="text">BudTrip</div>
+                        <p>BudTrip is an Android application that utilizes user-provided details such as hotel
+                            specifications, number of travelers, and type of transportation to estimate the trip's
+                            budget. The application also provides suggestions for places to visit or nearby attractions.
+                            The primary objective is to optimize the trip experience by simplifying the planning process
+                            and providing accurate estimates.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="box">
+                        <img src="image/lds.png" alt="LDS">
+                        <div class="text">LDS</div>
+                        <p>LDS (Login Detail Security) is an Android application that employs Caesar Cipher to encrypt
+                            user login credentials and stores them in Firebase. The application provides a secure and
+                            private means of storing important information such as website logins, social media
+                            credentials, as well as bank and ATM card PINs and passwords in an encrypted format. This
+                            feature enables the user to conveniently and confidently manage multiple passwords without
+                            the hassle of memorizing each one.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="box">
+                        <img src="image/chat.png" alt="Buddy Chat">
+                        <div class="text">Buddy Chat</div>
+                        <p>Buddy Chat application enhances the chatting experience by providing a modern social media
+                            platform that enables users to connect with their friends and family. The application offers
+                            a real-time chat system as well as the ability to post images and videos, allowing users to
+                            stay connected and share their experiences in an engaging and interactive manner.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="box">
+                        <img src="image/jitt.png" alt="JITT">
+                        <div class="text">JITT</div>
+                        <p>JITT (Just In Time Trainer) is an application designed to simplify the studying process for
+                            students by providing them with access to all necessary materials, including books and
+                            notes. In addition, the application offers several additional features, such as links to
+                            video lectures, a matrix calculator, an attendance system, quizzes, counseling sessions,
+                            career guidance orientations, and much more. These features are intended to help students
+                            excel in their studies and career.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="box">
+                        <img src="image/encrypt.png" alt="Customized PlayFair Cipher">
+                        <div class="text">Customized PlayFair Cipher</div>
+                        <p>The application offers an enhanced security method to the Playfair Cipher, utilizing two
+                            tables for encryption - a parent table and a randomized table. For decryption, the user is
+                            required to provide a key and a relative position mapping. This mapping is with respect to
+                            the parent matrix, resulting in a more secure encryption method than the Playfair Cipher.
+                        </p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="box">
+                        <img src="image/filter.png" alt="Filter Image">
+                        <div class="text">Filter Image</div>
+                        <p>This application offers a wide range of filters that can be applied to images. Users have the
+                            option to upload an image from their files or gallery, or directly capture an image and
+                            apply filters to it. The available filters include Grey, Negative, Green, Sepia, Grey Filter
+                            Outside, Sepia Filter Outside, Grey Diagonal, Sepia Diagonal, and Sketch Filter, among
+                            others.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="box">
+                        <img src="image/art.png" alt="Online Art Gallery">
+                        <div class="text">Online Art Gallery</div>
+                        <p>The Online Art Gallery is a web application that displays various artworks using MongoDB as
+                            its back-end, and is hosted on Heroku. This platform allows users to showcase their art and
+                            also provides a space to view masterpieces from all around the world.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- contact section start -->
+    <section class="contact" id="contact">
+        <div class="max-width">
+            <h2 class="title">Contact me</h2>
+            <div class="contact-content">
+                <div class="column left">
+                    <div class="text">Get in Touch</div>
+                    <p>If you are interested in collaborating with me or have any queries, feel free to contact me here.
+                        I am open to working with you on any exciting and novel ideas that you may have. You have come
+                        to the right place if you are looking for a competent and dedicated partner for your project.
+                    </p>
+                    <div class="icons">
+                        <div class="row">
+                            <i class="fa fa-group"></i>
+                            <div class="info">
+                                <div class="head">Name</div>
+                                <div class="sub-title">Aakash Yadav</div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <i class="fa fa-map"></i>
+                            <div class="info">
+                                <div class="head">Address</div>
+                                <div class="sub-title">Mumbai, India</div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <i class="fa fa-envelope"></i>
+                            <div class="info">
+                                <div class="head">Email</div>
+                                <div class="sub-title">ay1117680@gmail.com</div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <a href="https://www.linkedin.com/in/aakasky/"><i class="fa fa-linkedin"></i></a>
+                            &nbsp; &nbsp; &nbsp;
+                            <a href="https://t.me/aakasky_05"><i class="fa fa-telegram"></i></a>
+                            &nbsp; &nbsp; &nbsp;
+                            <a href="https://github.com/aakasky"><i class="fa fa-github"></i></a>
+                            &nbsp; &nbsp; &nbsp;
+                            <a href="https://www.instagram.com/aakashy_05/"><i class="fa fa-instagram"></i></a>
+                            &nbsp; &nbsp; &nbsp;
+                            <a href="https://twitter.com/aakasky_05/"><i class="fa fa-twitter"></i></a>
+                            &nbsp; &nbsp; &nbsp;
+                            <a href="https://wa.me/919820809562/"><i class="fa fa-whatsapp"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="column right">
+                    <div class="text">Message me</div>
+                    <form action="https://formsubmit.co/44bd9c8d0cb4fe8e89c52ecd5b99d06c" method="POST">
+                        <div class="fields">
+                            <div class="field name">
+                                <input type="text" name="Name" placeholder="Name" required>
+                            </div>
+                            <div class="field email">
+                                <input type="email" name="Email" placeholder="Email" required>
+                            </div>
+                        </div>
+                        <div class="field">
+                            <input type="text" name="Subject" placeholder="Subject" required>
+                        </div>
+                        <div class="field textarea">
+                            <textarea cols="30" rows="10" name="Messgae" placeholder="Message.." required></textarea>
+                        </div>
+                        <div class="button">
+                            <button type="submit">Send message</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer section start -->
+    <footer>
+        <span>Created By SKY | <span class="fa fa-copyright"></span> 2021 All rights reserved.</span>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
