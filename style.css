@@ -329,7 +329,7 @@ section .title::after {
 
 /* present section styling */
 .present .title::after {
-    content: "what i know";
+    content: "what i do";
 }
 
 .present .present-content .left {
