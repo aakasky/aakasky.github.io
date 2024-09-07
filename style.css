@@ -41,9 +41,9 @@ section {
 }
 
 .about,
-.services,
-.present,
 .skills,
+.present,
+.services,
 .project,
 .contact,
 footer {
@@ -52,8 +52,8 @@ footer {
 
 .about .about-content,
 .present .present-content,
-.services .serv-content,
-.skills .skills-content,
+.skills .serv-content,
+.services .services-content,
 .contact .contact-content {
     display: flex;
     flex-wrap: wrap;
@@ -388,25 +388,25 @@ section .title::after {
     display: block;
 }
 
-/* services section styling */
-.services,
+/* skills section styling */
+.skills,
 .project {
     color: #fff;
     background: #111;
 }
 
-.services .title::before,
+.skills .title::before,
 .project .title::before {
     background: #fff;
 }
 
-.services .title::after,
+.skills .title::after,
 .project .title::after {
     background: #111;
-    content: "what i provide";
+    content: "what i know";
 }
 
-.services .serv-content .card {
+.skills .serv-content .card {
     background: #222;
     text-align: center;
     border-radius: 6px;
@@ -415,54 +415,62 @@ section .title::after {
     transition: all 0.3s ease;
 }
 
-.services .serv-content .card:hover {
+.skills .serv-content .card:hover {
     background: crimson;
 }
 
-.services .serv-content .card .box {
+.skills .serv-content .card .box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     transition: all 0.3s ease;
 }
 
-.services .serv-content .card:hover .box {
+.skills .serv-content .card:hover .box {
     transform: scale(1.05);
 }
 
-.services .serv-content .card i {
-    font-size: 50px;
+.skills .serv-content .card img {
     color: crimson;
     transition: color 0.3s ease;
+    height: 100px;
+    width: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 5px solid crimson;
 }
 
-.services .serv-content .card:hover i {
-    color: #fff;
+.skills .serv-content .card:hover img {
+    border-color: #fff;
 }
 
-.services .serv-content .card .text {
+.skills .serv-content .card .text {
     font-size: 25px;
     font-weight: 500;
     margin: 10px 0 7px 0;
 }
 
-/* skills section styling */
-.skills .title::after {
-    content: "what i know";
+/* services section styling */
+.services .title::after {
+    content: "what i provide";
 }
 
-.skills .skills-content .column {
+.services .services-content .column {
     width: calc(50% - 30px);
 }
 
-.skills .skills-content .left .text {
+.services .services-content .left .text {
     font-size: 20px;
     font-weight: 600;
     margin-bottom: 10px;
 }
 
-.skills .skills-content .left p {
+.services .services-content .left p {
     text-align: justify;
 }
 
-.skills .skills-content .left a {
+.services .services-content .left a {
     display: inline-block;
     background: crimson;
     color: #fff;
@@ -475,35 +483,35 @@ section .title::after {
     transition: all 0.3s ease;
 }
 
-.skills .skills-content .left a:hover {
+.services .services-content .left a:hover {
     color: crimson;
     background: none;
 }
 
-.skills .skills-content .right .bars {
+.services .services-content .right .bars {
     margin-bottom: 15px;
 }
 
-.skills .skills-content .right .info {
+.services .services-content .right .info {
     display: flex;
     margin-bottom: 5px;
     align-items: center;
     justify-content: space-between;
 }
 
-.skills .skills-content .right span {
+.services .services-content .right span {
     font-weight: 500;
     font-size: 18px;
 }
 
-.skills .skills-content .right .line {
+.services .services-content .right .line {
     height: 5px;
     width: 100%;
     background: lightgrey;
     position: relative;
 }
 
-.skills .skills-content .right .line::before {
+.services .services-content .right .line::before {
     content: "";
     position: absolute;
     height: 100%;
@@ -512,7 +520,7 @@ section .title::after {
     background: crimson;
 }
 
-.skills-content .right .skill::before {
+.services-content .right .services::before {
     width: 100%;
 }
 
@@ -822,12 +830,12 @@ footer span a:hover {
         flex: 100%;
     }
 
-    .services .serv-content .card {
+    .skills .serv-content .card {
         width: calc(50% - 10px);
         margin-bottom: 20px;
     }
 
-    .skills .skills-content .column,
+    .services .services-content .column,
     .contact .contact-content .column {
         width: 100%;
         margin-bottom: 35px;
@@ -851,7 +859,7 @@ footer span a:hover {
         font-size: 20px;
     }
 
-    .services .serv-content .card {
+    .skills .serv-content .card {
         width: 100%;
     }
 }
@@ -866,7 +874,7 @@ footer span a:hover {
     }
 
     .about .about-content .right .text,
-    .skills .skills-content .left .text {
+    .services .services-content .left .text {
         font-size: 19px;
     }
 
