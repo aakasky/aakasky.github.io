@@ -193,7 +193,7 @@ section .title::after {
 /* home section styling */
 .home {
     display: flex;
-    background: url("image/back.jpg") no-repeat center;
+    background: url("image/back.png") no-repeat center;
     height: 100vh;
     color: #fff;
     min-height: 500px;
@@ -261,7 +261,7 @@ section .title::after {
 /* about section styling */
 .about {
     display: flex;
-    background: url("image/back.jpg") no-repeat center;
+    background: url("image/back.png") no-repeat center;
     color: #fff;
     min-height: 500px;
     background-size: cover;
@@ -614,9 +614,14 @@ section .title::after {
     margin: 10px 0;
 }
 
-.contact .contact-content .row {
+.contact .contact-content {
     display: flex;
     height: 65px;
+    align-items: center;
+    justify-content: center;
+}
+
+.row {
     align-items: center;
 }
 
